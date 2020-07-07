@@ -120,7 +120,7 @@ let images = {
      * @param {string} animationClass - название класса анимации
     */
     removeAnimationClassAfterEnd(animatedEl, animationClass) {
-        animatedEl.addEventListener('animationend', function removeAnimationClass(event) {
+        animatedEl.addEventListener('animationend', function removeAnimationClass() {
                 animatedEl.classList.remove(animationClass);
                 // удаляем сам слушатель
                 animatedEl.removeEventListener('animationend', removeAnimationClass);
