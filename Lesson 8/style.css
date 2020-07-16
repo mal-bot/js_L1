@@ -1,0 +1,37 @@
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.block {
+    background-color: #fffff5;
+    text-align: center;
+    /* outline: 1px solid black; */
+}
+
+.paddingSite {
+    padding: 20px 20px 20px 20px;
+}
+
+.input, .output {
+    display: flex;
+    flex-direction: column;
+}
+
+.GroundStation, .Satellite, .Propagation {
+    display: flex;
+    justify-content: center;
+}
+
+table td{
+    outline: 1px solid black;
+    width: 200;
+}
+
+input {
+    margin: 0 10px;
+}
+
+h1 {
+    font-size: 16px;
+}
